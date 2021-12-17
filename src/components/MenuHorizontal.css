@@ -1,0 +1,37 @@
+.menu-horizontal-container {
+  text-decoration: none;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  padding-top: 15px;
+  background-color: black;
+}
+
+.item-menu {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+  font-size: 20px;  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}

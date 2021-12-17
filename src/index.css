@@ -1,0 +1,25 @@
+:root {
+	--background-main: #F2F3F5;
+	--logo-font-color: rgb(0, 0, 0);
+	--border-menu: solid 1px #E7E8EA;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+	height: 100vh;
+	font: 1.6rem 'Lato', sans-serif;
+	margin: 0;
+	font-weight: 400;
+	position: relative;
+	z-index: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+	background: --background-main;
+}
+
+a {
+  text-decoration: none;
+}
